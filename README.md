@@ -1,4 +1,5 @@
-💫💫💫 Red Apple 💫💫💫
+# 💫💫💫 Red Apple 💫💫💫
+
 Read Apple Website is a fully structured, responsive front‑end web application built with clean HTML and CSS, following modern UI/UX standards. The project is developed in a scalable way, with a clear architecture that supports future enhancements using JavaScript for dynamic functionality and interactive components.
 
 💫 Red Apple is a modern company delivering professional skill training and corporate solutions. The company specializes in workforce development, talent empowerment, and technology‑driven business growth. Our programs are designed to build practical expertise and strengthen organizational performance. With innovation and strategic focus, Red Apple helps professionals and enterprises achieve lasting success.

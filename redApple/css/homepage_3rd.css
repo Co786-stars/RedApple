@@ -1,0 +1,111 @@
+/* div that contain the links of nav  */
+#container1st {
+	padding: 0%;
+	margin:0%;
+	background-image: linear-gradient(hsla(50, 50%, 50%, 0.5), hsla(50, 50%, 90%, 1.0));
+	overflow-x: auto;
+	position: sticky;
+	top: 0;
+	display: flex;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+}
+
+
+
+/*styling undefine list that contain list item links*/
+#container2nd {
+	list-style-type: none;
+	padding: 0%;
+	margin: 0%;
+	position: sticky;
+	top: 0%;
+	white-space: nowrap;
+	font-weight: bold;
+	font-size: 15px;
+
+}
+
+
+/*list container that contain content link*/
+#lnkcontainer {
+	display: inline-block;
+	padding: 4px;
+	background-image: linear-gradient(hsla(50, 50%, 50%, 0.5), hsla(50, 50%, 90%, 1.0));
+}
+
+
+
+/*styling links of content*/
+#contentlnk {
+
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	color: rgba(0, 0, 0, 1.0);
+	padding: 0px 25px;
+	
+}
+
+
+/*hover property of links content*/
+#lnkcontainer:hover {
+	background:burlywood;
+}
+
+
+
+/*----Scrollbar---------*//*----Scrollbar---------*/
+#container1st::-webkit-scrollbar {
+	height: 0%;
+	width: 0%;
+}
+
+
+/*styling the path where scrollbar thumb is run on x-axis*/
+#container1st::-webkit-scrollbar-track {
+	background-color: transparent; 
+}
+
+
+/*styling the scrollbar button thumb /mid scroll button*/
+#container1st::-webkit-scrollbar-thumb {
+	background:transparent;
+	border-radius: 100px;
+	border:2px solid red ;
+}
+
+/* #corntainer1st::-webkit-scrollbar-corner {
+
+}
+ */
+
+/*
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Responsive Bootstrap Example</title>
+  <!-- Bootstrap CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-4">
+  <h2 class="text-center">Responsive Grid with Bootstrap</h2>
+  
+  <div class="row">
+    <!-- On large screens: 3 columns, medium: 2, small: 1 -->
+    <div class="col-lg-4 col-md-6 col-sm-12 bg-primary text-white p-3">Column 1</div>
+    <div class="col-lg-4 col-md-6 col-sm-12 bg-success text-white p-3">Column 2</div>
+    <div class="col-lg-4 col-md-6 col-sm-12 bg-danger text-white p-3">Column 3</div>
+  </div>
+</div>
+
+<!-- Bootstrap JS CDN -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+*/

@@ -1,0 +1,381 @@
+
+/*___________________________________________________________________________________________________________________________*/
+
+/* ----------------------------------------------carousel background edit----------------------------------------------------
+________________________________________________________________________________________________________________________________*/
+
+#slide {
+	height: 100%;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	background-image: url("img7.png");
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------------*/
+/*background of div where image is places // img 1st // */
+#img_container1st {
+	background-image: url("backslide.png");
+	background-repeat: no-repeat;
+	background-size:contain;
+	float: left;
+}
+
+
+/*div where image is placed*  // img 1st // */
+#hackmg {
+	width: 30%;
+	float:right;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+
+/*left & right icon or below button  // img 1st // */
+#indicator-dot, #right-icon, #left-icon {
+	background: transparent;
+	border-radius: 100%;
+}
+
+
+/*premium apple regrestration link on crausel-slide// depred apple */
+.premium1sticonlink {
+	height: 190px;
+	width: 190px;
+	display:inline-block;
+	border-top-left-radius: 30%;
+	border-bottom-right-radius:37% ;
+	border-bottom-left-radius: 52%;
+	border-top-right-radius: 36%;
+	background: transparent;
+	margin-top: 0%;
+}
+
+
+
+/*active of premium apple*/
+.premium1sticonlink:hover {
+	  
+	  /*
+	  transform: rotate(180deg);
+	  transition: transform 2.5s;
+	  transform: translate(50px);     translate (x, y)  ony linear movment also use translateX, translateY saperatly
+	  transform: rotate(10deg);       rotate(x)        clockwise, anticlockwise
+	  transform: scale(1.5, 1.5);     scale(x, y)   define width x height # also use scaleY, scaleX saperatly
+	  transform: skew(15deg, 15deg);  skew(x, y)   use for skew up and down means x and y skew the item
+	  transform: matrix(1, 0, 0, 1, 100, 0)    matrix(1, 0, 0, 1, 50, 50 is use for all the 2d property // a and d: scaling // b and c: skewing // e and f: translation 
+	  */
+}
+
+
+/*carousel1 active of premium apple*/
+.premium1sticonlink:active {
+	border-top-left-radius: 23%;
+	Padding:15px;
+}
+
+
+/*heading as a leable on slide active crausel*/
+#caption1 {
+	font-size: 46px;
+	font-family: cursive;
+	font-display: block;
+	font-weight: bold;
+	font-variant: unset;
+	letter-spacing: -0px;
+	line-height: auto;
+	color: gainsboro;/*rgba(145, 26, 255, 1.0)*/;
+	text-shadow: 2px 0px green, 0px 2px black, -0px 2px black, 2px 3px black;
+
+}
+
+
+/*carousel1 caption container*/
+#caption-container1st {
+	padding: 3px;
+	margin: 0%;
+	height: 90%;
+	justify-content: center;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+/*carousel1 details content*/
+#capdetail1 {
+	font-weight: bold;
+	font-family: monospace;
+	font-size: 18px;
+	text-transform: capitalize;
+	font-style: italic;
+	padding-right: 9%;
+	padding-left: 9%;
+
+}
+
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*background of div where image is places */
+#img_container2nd {
+	background-image: linear-gradient(-45deg, slategrey, olivedrab, hsla(0, 100%, 60%, 0.4), darkgreen, burlywood, darkgreen,  burlywood);
+	opacity: 0.8;
+}
+
+
+/*carousal2 background image */
+#img_subcontainer2nd {
+	background-image:url("backslide2.png");
+	background-position: right;
+	transform: scaleX(-1.0);
+	background-size: 31%;
+	background-repeat:no-repeat;
+
+}
+
+
+/*carousel caption hidden img */
+#tecbranch {
+	width: 30%;
+	background: rgba(0, 0, 0, 0.5);
+	opacity: 0.0;
+
+}
+
+
+/*heading as a leable on slide of 2nd crausel*/
+#caption2 {
+	font-size: 50px;
+	font-family:cursive;
+	font-weight: bold;
+	letter-spacing: -0px;
+	line-height: normal;
+	color:black;
+	text-shadow: 2px 0px white, 0px 2px white, -0px 2px white, -2px 0px white;
+
+}
+
+
+#caption-container2nd {
+	height: 90%;
+	text-align: left;
+	font-weight: bold;
+	width: 70%;
+	position: absolute;
+	transform: translate(20%, -7%);
+}
+
+
+
+/*carousel2 details content*/
+#capdetail2 {
+	font-weight: bold;
+	font-family: monospace;
+	font-size: 21px;
+	font-style: italic;
+	font-weight: bold;
+	padding-right: 3%;
+	padding-left: 0%;
+	color: rgba(255, 255, 255, 1.0);
+	text-shadow: 1px 0px black, 0px 1px black, -0px 1px black, -1px 0px black;
+
+}
+
+
+/*Primary link addition green_apple*/
+#greenapl {
+	height: 160px;
+	width: 160px;
+	border-radius: 100%;
+	margin-top: 0%;
+	transform: translate(190%);
+
+}
+
+/*hover property of */
+#greenapl:hover {
+/*	transform: rotate(360deg);*/ /* firstly we should remove translation property to 
+/*	transition: 3;*/ /* to use more then one propery we use matrix mathod */
+
+}
+
+
+
+/*active property of link green apple*/
+#greenapl:active {
+	padding: 1%;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*div where image is places // img 3rd // */
+#img_container3rd {
+/*no option or property are require it a hidden*/
+
+}
+
+
+/*carousal3 background image */
+#img_subcontainer3rd {
+	background-image: url("slideitm3.png");
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: white;
+}
+
+/*carousel caption right image *//*heading as a leable on slide of 3rd crausel*//*carousel3 details content*//* captiondetails text on crausel3 */
+#img3 {
+	width: 25%;
+	transform: translateX(300%);
+	border-radius: 0%;
+	padding: 1px;
+	border-radius: 10%;
+}
+
+/*heading as a leable on slide of 3rd crausel*//*carousel3 details content*//* captiondetails text on crausel3 */
+#caption-container3rd {
+	padding: 5px;
+	height: 100%;
+}
+
+
+
+/*carousel3 details content*/
+#caption3 {
+	color:black;
+	font-weight: bold;
+	font-size: 53px;
+	font-family:serif;
+	text-shadow: 1px 0px blue, 0px 1px blue, -0px 1px blue, -1px 0px blue;
+	letter-spacing: 2px;
+	line-height: normal;
+	padding-top: 2%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+
+/* captiondetails text on crausel3 */
+#capdetails3 {
+	color: brown;
+	margin-bottom: 0%; 
+	padding-left: 4%; 
+	padding-right: 4%;
+	text-shadow: 1px 0px blanchedalmond, 0px -1px blanchedalmond, -0px 1px blanchedalmond, -1px 0px blanchedalmond;
+}
+
+
+/*Primary link addition read_apple*/
+#redapple {
+	height: 150px;
+	width: 150px;
+}
+
+
+
+/*active property of link red apple*/
+#redapple:active {
+	padding: 2%;
+}
+
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*div where image is places // img 4th // */
+#img_container4th {
+	background-image: linear-gradient(-365deg, hsla(90, 60%, 50%, 0.6), hsla(0, 60%, 50%, 0.5), 
+		rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3));
+}
+
+
+/*background image of crausel4th*/
+#img_subcontainer4th {
+	background-image: url("backslide4.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right;
+	transform: scaleX(-1.0);
+}
+
+
+/*carousal4 background image */
+#img4 {
+	width: 30%;
+	padding:0px;
+}
+
+
+
+/*carousel4 details content*/
+#caption-container4th {
+	padding: 5px;
+	height: 100%;
+}
+
+
+/*heading as a leable on slide of 4th crausel*/
+#caption4 {
+	color:hsla(70, 100%, 90%, 0.8);
+	font-weight: bold;
+	font-size: 50px;
+	font-family:serif;
+	text-shadow: 1px 0px green, 0px 1px green, -0px 1px green, -1px 0px green;
+	letter-spacing: 2px;
+	line-height: normal;
+	padding-top: 2%;
+	padding-left: %;
+	padding-right: 1%;
+	text-transform: capitalize;
+	font-style: italic;
+}
+
+
+
+/* captiondetails text on crausel4 */
+#capdetails4 {
+	color: cadetblue;
+	margin-bottom: 0%; 
+	padding-left: 4%; 
+	padding-right: 4%;
+	font-size: 18px;
+	font-family: monospace;
+	font-weight: bold;
+	font-style: italic;
+	text-shadow: 1px 0px black, 0px -1px black, -0px 1px black, -1px 0px black;
+	margin-bottom: 0%;
+}
+
+
+
+/*Primary link addition read_apple*/
+#premiumiconaple {
+	height: 130px;
+	width: 130px;
+	border-bottom-left-radius: 90%;
+	border-bottom-right-radius: 90%;
+	border-top-left-radius: 75%;
+	border-top-right-radius: 40%;
+	padding: 0%;
+	margin-top: 0%;
+}
+
+
+/*Hover property of link red apple*/
+/*#premiumiconaple:hover {
+	padding: 1%;
+}*/
+
+
+/*active property of link red apple*/
+#premiumiconaple:active {
+	padding:1%;
+}
+
+/*___________________________________________________________________________________________________________________________*/
+
+
+

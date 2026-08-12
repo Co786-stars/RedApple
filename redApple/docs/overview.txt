@@ -1,0 +1,487 @@
+---------------------------------style.css--------------------------------
+/*body of the website*/
+#body {
+	/* background: rgba(0, 0, 0, 1.0); */
+	padding-left: 0px;
+	padding-right: 0px;
+/*	border-top:1px solid white;*/
+}
+
+
+
+/* navbar that show background header color*/
+#hnav {
+	background-image: radial-gradient(rgba(0, 50, 50, 1), 
+		rgba(0, 0, 50, 1.0));
+	margin: 0%;
+	padding-bottom: 0%;
+}
+
+
+/* humburger button decoration */
+.navbar-toggler {
+	border: 2px solid black;
+	border-radius: 100%;
+	background-color: black;
+	padding: 0px;
+	
+}
+
+
+
+/* unlist contain links of header */
+#nvcon1 {
+		padding: 0%;
+		margin: 0%;	
+		width: 100%;
+}
+
+/* web logo of Ncrycore website */
+#website_logo {
+	  height: 50px;
+	  width: 50px;
+	  margin: 0px;
+	  box-shadow: 1px 1px 2px whitesmoke;
+	  border-radius: 10px;
+}
+
+#website_logo:hover  {
+	border-color: white;
+	border-radius: 100%;
+	border-style: solid;
+	border-width: 2px;
+	 transform: rotate(360deg);
+    transition: transform 0.40s ease; 
+	padding: 2px;	
+}
+
+#website_logo:active {
+   padding:6px;
+}
+
+/* list tag contain that links  */
+#ritm {
+
+	float: left;
+	list-style-type: none;
+	padding: 3px 7px 0px 0px;
+	display: block;
+	background: rgba(0, 0, 0, 0.2);
+	background-color:transparent;
+
+}
+
+
+/* anchor tag of header */
+#rlnk {
+	text-decoration: none;
+	padding: 0px 10px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #0fAf3f;
+	border-radius: 10px;
+	width: 200px;
+	font-size: 18px;
+
+}
+
+
+/*Hover of anchor */
+#rlnk:hover {
+	 color: rgba(255, 220, 155, 0.8);
+	 
+}
+
+
+
+/*container of input div contain text*/
+#container {
+	float: left; 
+	background: rgb(255, 255, 255);
+	border-radius:5px;
+	margin-left: 15px;
+	margin-right: 40px;
+	transform: translateY(1px);
+
+}
+
+
+
+/*Hover status of container */
+#container:hover{
+	outline: 1px solid blueviolet;
+}
+
+
+
+/*input text serch engine*/
+input[type="search"] {
+	padding-left: 10px;
+	border:1px double white;
+	border-right:2px double white;
+	background-color: rgba(0, 0, 0, 0.2);
+	color: darkblue;
+	font-family: cursive;
+	font-weight: bold;
+	transform: translateY(0.4px);
+	outline: none;
+	border-radius: 5px;
+
+}
+
+
+/*input hover status*/
+input[type="search"]:hover {
+	outline: 2px solid white ; /* before mension bluevoleit*/	
+}
+
+
+/*serch bar icon in container*/
+#icon {
+	  height: 25px;
+	  width: 25px;
+	  margin: 0px;
+	  transform: translate(-3px, -1px);
+	  border-radius: 100%;
+
+}
+
+
+/*left item img icon regrestration from*/
+#regfrom {
+	height: 50px;
+	width: 50px;
+	margin: 0px;
+	box-shadow: 1px 1px 2px whitesmoke;
+	border-radius: 10px;
+	float: right;
+	text-decoration: none;
+	display: block;
+	padding: 2px;
+
+}
+
+/*hover status of img icon*/
+#regfrom:hover {
+	border-color: white;
+	border-radius: 100%;
+	border-style: solid;
+	border-width: 2px;
+	 transform: rotate(360deg);
+    transition: transform 0.40s ease; 
+	padding: 2px;
+
+}
+
+/*active status of img icon*/
+#regfrom:active {
+	border-color: white;
+	border-radius: 100%;
+	border-style: solid;
+	border-width: 3px;
+	padding: 6px;
+
+}
+
+
+/*Premimum features of site */
+#premium {
+	padding: 4px 4px 4px 18px;
+	text-decoration: none;
+	font-size: large;
+	font-weight: bold;
+	margin-left: auto;
+
+
+}
+
+
+
+/*premium link decoration*/
+#plnk {
+	text-decoration: none;
+
+}
+
+
+----------------------------------------------------------------------index.html
+
+
+<!------------------------------------------< CRAUSEL >---------------------------------------->
+<!------------------------------------------< CRAUSEL >---------------------------------------->
+<div id =demo class="carousel slids" data-bs-rid="carousel">
+	
+	<!-- indicator/dots of slids -->
+	<div class="carousel-indicators">
+		<button  id="indicator-dot" type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+		<button id="indicator-dot" type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+		<button id="indicator-dot" type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+		<button  id="indicator-dot" type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+	</div>
+
+
+	<!-- The slideshow/carousel containers -->
+	<div class="carousel-inner" id="slide">
+	
+	<!----------------- img 1st -------------------->
+
+		<div class="carousel-item active" id="img_container1st">
+			<img src="css/_16th_.png" id="hackmg" alt="Cybersecurity" class="d-block">
+
+			<!-- carousel caption label -->
+			<div class= "carousel-caption" id="caption-container1st">
+				<p  id=caption1>Cybersecurity Certification Free Sallybus</p>
+				
+				<!-- crausel caption details -->
+				<header id="capdetail1">
+					<p>
+					Gain expertise in various cybersecurity fields, including Python, Linux, 
+					Red Hat, Ubuntu, and Kali Linux. This program equips you with essential skills and practical experience to excel in the cybersecurity industry.
+					</p> 
+					<b class="text-scecondary" style=" text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF; color: rgba(0, 200, 255, 1.0); font-size: 25px;">Register now for the first three months free!</b><br>
+						<a href="#">
+							<img class="premium1sticonlink" src="premium1sticon.png" alt="Sec_Regrestration">
+						</a>
+				</header>
+			</div>
+		</div>
+
+
+
+	<!----------------- img 2nd ----------------->
+	
+		<div class="carousel-item" id="img_container2nd">
+			<div id="img_subcontainer2nd">
+				<img src=slideitm2.png id="tecbranch" alt="TechScifi.jpg" class="d-block">
+			</div>
+			
+			<!---- carousel caption label ------->
+			<div class=" container carousel-caption" id="caption-container2nd" >
+				<p id=caption2>Science and Technology Free Sallybus</p>
+
+				<!--- carousel caption img1st ------->
+				<header id="capdetail2">
+					<p  style="margin-bottom: 0%;"> 
+						Our syllabus offers a thorough exploration of various subjects within the fields of science and technology. 
+						The curriculum includes courses in Mechanical Engineering, Electrical Engineering, and Computer Science Engineering, 
+						along with a strong emphasis on vocational training to ensure students acquire practical skills for their future careers.
+						<span style=" color:rgba(222, 255, 122, 1.0); font-weight: bold;">Free access only for six month</span>
+						<a href="#" style="text-decoration:none; color:rgba(222, 255, 122, 1.0); font-weight: bold;"> read more..</a>
+					</p>
+				</header>
+
+					<p class="bg-blac" style=" color:rgba(0, 255, 0, 1.0); font: 30px cursive; font-style: italic; padding-left: 9% ; margin-top: 0%; margin-bottom:0%; text-shadow:2px 0px black, 0px 2px black, -0px 2px black, -2px 0px black;">Register now and access free content  :-</p>
+					<a href="#">
+						<img src="premium2ndicon.png" alt="free_access" id="greenapl">
+					</a>
+			</div>
+		</div>
+
+
+	<!----------------- img 3rd ----------------->
+
+		<div class="carousel-item" id="img_container3rd">
+			<div id="img_subcontainer3rd">
+				<img src=backslide3.jpeg id ="img3" alt="management" class="d-block">
+			</div>
+
+			<!---- carousel caption label ------->
+			<div class="carousel-caption" id="caption-container3rd">
+					<p id="caption3" >Management and Finance certification free sallybus</p>
+			
+			<!---- carousel caption image3rd ------->
+				<header id= "capdetails3">
+					<p><b>
+						This course is designed to provide students with a comprehensive understanding of advanced 
+						concepts in management and finance. The curriculum covers both theoretical and practical aspects, 
+						aiming to enhance students' knowledge and skills for a dynamic business environment.
+					</b></p>
+				</header>
+
+				<p class="text-secondary" style="font:bold; font-size: 23px; text-shadow: 1px 0px black, 0px -1px black, -0px 1px black, -1px 0px black; 
+				margin-bottom: 0%;" ><b>Register Now access primium services three month free</b></p>
+				<a href="#" >
+					<img src=premium3rdicon.png id = "redapple">
+				</a>
+			</div>
+		</div>
+
+
+
+
+	<!----------------- img 4th ----------------->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home Page</title>
+	 
+	<!--remote links/path  -->
+	<link rel="stylesheet" href="css/style.css">			
+	<link rel="stylesheet" href="css/homepage_2nd.css">		
+	<link rel="stylesheet" href="css/homepage_3rd.css"> 	
+	<link rel="stylesheet" href="css/homepage_4th.css"> 	
+	<link rel="stylesheet" href="css/responsive.css">		
+
+	<!-- bootstrap links  -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">   <!-- bootstrap link with css bundle-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> <!-- bootstrap link with JavaScript bundle-->
+
+
+	<!-- favicon x-icon links-->
+	<link rel="icon" type="image/x-icon" href="favicon2.png">  <!-- favicon of Website -->
+	
+
+</head>
+<body id="body">
+
+
+<!------------------------------------------< HEADER >---------------------------------------->	
+<!------------------------------------------< HEADER >---------------------------------------->
+		<header class="navbar navbar-expand-lg navbar-dark bg-dark" id="hnav">
+			<div class="container-fluid">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+				<!-- Brand -->
+				 <a class="navbar-brand" href="loginfrom.html">
+					<img id="website_logo" src="apl_logo.jpg" alt="NcryCore Logo" id="logo">
+				 </a>
+
+			    <!-- Hamburger button -->
+				 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+				    <span class="navbar-toggler-icon"></span>
+				 </button>
+
+				<!-- collapsible menu -->
+				 <div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ms-auto" id="nvcon1">
+						<li class="nav-item" id="ritm"><a id="rlnk" name="rnvbr" href="#">Home</a></li>
+						<li class="nav-item" id="ritm"><a id="rlnk" name="rnvbr" href="#">Contact</a></li>
+						<li class="nav-item" id="ritm"><a id="rlnk" name="rnvbr" href="#">Services</a></li>
+						<li class="nav-item" id="ritm"><a id="rlnk" name="rnvbr" href="#">Practical</a></li>
+						<li class="nav-item" id="ritm"><a id="rlnk" name="rnvbr" href="#">Exams</a></li>
+						<li class="nav-item" id="ritm"><a id="rlnk" name="rnvbr" href="#">Certificate</a></li>
+						<li class="nav-item" id="ritm"><a id="rlnk" name="rnvbr" href="#">Jobs</a></li>		  
+						<li class="nav-item" id="ritm"><a id="rlnk" name="rnvbr" href="#">Intern</a></li>
+						<li class="nav-item" id= "premium"><a id="plnk" name="rnvbr" href="#">Devlopment</a></li>
+						<li class="nav-item" id= "premium"><a id="plnk" name="rnvbr" href="#">Premium</a></li>
+						<li class="nav-item" id= "premium"><a id="plnk" name="rnvbr" href="#">Specilization</a></li>
+						<li class="nav-item" id= "premium"><a id="plnk" name="rnvbr" href="#">Workshops</a></li>
+						<li class="nav-item" id= "premium"><a id="plnk" name="rnvbr" href="#">GrowUp</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<!-- Brand/Registration from link -->
+			<a class="navbar-brand" href="regristration_from.html" target="_blank">
+				<img src="favicon2.png" alt="Registration from icon" id="regfrom">
+			</a>
+		</header>
+
+
+
+<div class="container-fluid" id="container1st">
+	<ul id="container2nd">
+		<li id="lnkcontainer"><a id="contentlnk" href="#">Computer Applications</a></li>
+		<li id="lnkcontainer"><a id="contentlnk" href="#">Engineering & Technology</a></li>
+		<li id="lnkcontainer"><a id="contentlnk" href="#">Business & Management</a></li>
+		<li id="lnkcontainer"><a id="contentlnk" href="#">Journalism & Mass Communication</a></li>
+		<li id="lnkcontainer"><a id="contentlnk" href="#">Arts & Humanities</a></li>
+		<li id="lnkcontainer"><a id="contentlnk" href="#">Science</a></li>
+		<li id="lnkcontainer"><a id="contentlnk" href="#">Commerce</a></li>
+		<li id="lnkcontainer"><a id="contentlnk" href="#">Law</a></li>
+		<li id="lnkcontainer"><a id="contentlnk" href="#">Medicine & Health</a></li>
+		<li id="lnkcontainer"><a id="contentlnk" href="#">Education</a></li>
+		<li id="lnkcontainer"><a id="contentlnk" href="#">Design & Architecture</a></li>
+		<li id="lnkcontainer"><a id="contentlnk" href="#">Agriculture</a></li>
+		<li id="lnkcontainer"><a id="contentlnk" href="#">Hotel Management & Tourism</a></li>
+		<li id="lnkcontainer"><a id="contentlnk" href="#">Fashion & Textilek</a></li>
+		<li id="lnkcontainer"><a id="contentlnk" href="#">Performing Arts</a></li>
+		<li id="lnkcontainer"><a id="contentlnk" href="#">Environmental Science</a></li>
+		<li id="lnkcontainer"><a id="contentlnk" href="#">Psychology & Counseling</a></li>
+		<li id="lnkcontainer"><a id="contentlnk" href="#">Library Science</a></li>
+		<li id="lnkcontainer"><a id="contentlnk" href="#">Vocational Courses</a></li>
+		<li id="lnkcontainer"><a id="contentlnk" href="#">Nutrition & Dietetics</a></li>
+		<li id="lnkcontainer"><a id="contentlnk" href="#">Physical Education & Sports</a></li>
+		<li id="lnkcontainer"><a id="contentlnk" href="#">Hospitality & Culinary Arts</a></li>
+		<li id="lnkcontainer"><a id="contentlnk" href="#">Languages & Literature</a></li>
+		<li id="lnkcontainer"><a id="contentlnk" href="#">Human Resource Management</a></li>
+		<li id="lnkcontainer"><a id="contentlnk" href="#">Public Administration</a></li>
+	</ul>
+</div>
+
+
+		<div class="carousel-item"  id="img_container4th" >
+			<div  id="img_subcontainer4th"  >
+				<img src="slideitem4.png"  style="transform: scaleX(-1);" id="img4" alt="" class="d-block">
+			</div>
+
+
+			<!---- carousel caption label ------->
+			<div class="carousel-caption" id="caption-container4th">
+				<p id="caption4"> mass media and communication free sallybus</p>
+
+			<!---- carousel caption image4th ------->
+				<header id="capdetails4" >
+					<p style="margin-top: 0%;">
+						<b> 
+							In this course we will explore key aspects of communication and mass media, covering topics such as journalism, 
+							media ethics, public relations, digital media, and the impact of mass media on society. This course provides a 
+							comprehensive overview of the fundamental concepts and practices in journalism and media studies
+				    	</b>
+					</p>
+				</header>
+
+				<p  style=" color:rgba(165, 200, 255, 0.9); font:bold; font-size: 23px; text-shadow: 1px 0px black, 0px -1px black, -0px 1px black, -1px 0px black; 
+				font-style:italic; margin-bottom: 9px;">Registred now free for six month </p>
+				<a href="#">
+					<img src="premium4thicon.png" id ="premiumiconaple" alt="Redapple">
+				</a>
+			</div>
+		</div>
+	</div>
+
+
+
+  <!----------- left controls/icons Button ------------>
+	<button class= "carousel-control-prev" data-bs-slide="prev" type="button" data-bs-target="#demo">
+		<span class="carousel-control-prev-icon" id="left-icon"></span>
+	</button>
+
+
+
+  <!----------- right controls/icons Button ------------>
+	<button class="carousel-control-next" data-bs-slide="next" type="" data-bs-target="#demo">
+		<span class="carousel-control-next-icon " id="right-icon" ></span>
+	</button>
+
+	</div>
+</div>
+
+
+
+
+
+
+
+<!-- ⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️ -->
+
+
+
+<!------------------------------------------< CRAUSEL >---------------------------------------->
+<!------------------------------------------< CRAUSEL >---------------------------------------->
+
+
+ <!-- 	<nav>
+	    <ul id="nevlink" style="background-color: ;">
+	    	<li id="link" style="background-color: transparent;"><a id="link" name="" href="#">Home</a></li>
+	        <li id="link" style="background-color: transparent;"><a id="link" name="" href="#">Contact</a></li>
+	        <li id="link" style="background-color: transparent;"><a id="link" name="" href="#">Services</a></li>
+	        <li id="link" style="background-color: transparent;"><a id="link" name="" href="#">Practical</a></li>
+	        <li id="link" style="background-color: transparent;"><a id="link" name="" href="#">Exams</a></li>
+	        <li id="link" style="background-color: transparent;"><a id="link" name="" href="#">Certificate</a></li>
+	        <li id="link" style="background-color: transparent;"><a id="link" name="" href="#">Jobs</a></li>
+	    </ul>
+	</nav> -->
+
+<!-- ⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️⚔️ -->

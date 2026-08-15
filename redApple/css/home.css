@@ -219,7 +219,7 @@ input[type="search"]:hover {
 /*=============================== CATEGORY SECTIONS ===================================*/
 /*=============================== NAVBAR LIST =========================================*/
 
-/* Sticky horizontal nav */
+/*=============================== STICKY HORIZONTAL NAV =========================*/
 #container1st {
     margin: 0;
     padding: 0;
@@ -251,7 +251,7 @@ input[type="search"]:hover {
 }
 
 
-/* UL styling */
+/*=============================== UL STYLING =========================*/
 #category_list {
     display: flex;
     margin: 0;
@@ -605,7 +605,7 @@ input[type="search"]:hover {
 /*============================================ SECOND SLIDE VIEWS ==========================================*/
 /*============================================ CAROUSEL VIEWS ==============================================*/
 
-/* second slide background */
+/*=============================== SECOND SLIDE BACKGROUND =====================*/
 #img_container2nd {
     width: 100%;
     height: 100%;
@@ -635,7 +635,8 @@ input[type="search"]:hover {
     opacity: 0.6;
 }
 
-/* right main image */
+
+/*=============================== RIGHT MAIN IMAGE =====================*/
 #img1st {
     width: 22%;
     float: right;
@@ -644,8 +645,9 @@ input[type="search"]:hover {
     z-index: 2;
 }
 
-/*=============================== REGISTER NOW TEXT =====================*/
 
+
+/*=============================== REGISTER NOW TEXT =====================*/
 .regtxt2 {
     font-size: 1.25rem;
     font-weight: 600;
@@ -671,8 +673,8 @@ input[type="search"]:hover {
     transform: translateY(-3px) scale(1.05);
 }
 
-/*=============================== MAIN CAPTION ==========================*/
 
+/*=============================== MAIN CAPTION ==========================*/
 #caption2 {
     font-size: 36px;
     font-family: "Orbitron", sans-serif;
@@ -699,8 +701,8 @@ input[type="search"]:hover {
     }
 }
 
-/*=============================== CAROUSEL CAPTION BOX ==================*/
 
+/*=============================== CAROUSEL CAPTION BOX ==================*/
 #carousel-cap2 {
     padding: 14px;
     margin: 0;
@@ -733,7 +735,6 @@ input[type="search"]:hover {
 
 #carousel-cap2:hover {
     transform: translateY(-6px) scale(1.02);
-
     box-shadow:
         0 18px 60px rgba(0, 0, 0, 0.6),
         inset 0 0 30px rgba(0, 200, 255, 0.3);
@@ -752,8 +753,8 @@ input[type="search"]:hover {
     }
 }
 
-/*=============================== DETAILS TEXT ==========================*/
 
+/*=============================== DETAILS TEXT ==========================*/
 #cap_details_txt2 {
     font-weight: 500;
     font-family: "Roboto Mono", monospace;
@@ -793,7 +794,8 @@ input[type="search"]:hover {
 /*============================================ SECOND SLIDE VIEWS ==========================================*/
 /*============================================ CAROUSEL VIEWS ==============================================*/
 
-/* second slide background */
+
+/*=============================== SECOND SLIDE BACKGROUND ==========================*/
 #img_container2nd {
     width: 100%;
     height: 100%;
@@ -823,7 +825,8 @@ input[type="search"]:hover {
     opacity: 1;
 }
 
-/* right main image */
+
+/*=============================== RIGHT MAIN IMAGE ==============*/
 #img1st {
     width: 25%;
     height: 50%;
@@ -833,8 +836,8 @@ input[type="search"]:hover {
     z-index: 2;
 }
 
-/*=============================== REGISTER NOW TEXT =====================*/
 
+/*=============================== REGISTER NOW TEXT =====================*/
 .regtxt2 {
     font-size: 0.75rem;
     font-weight: 600;
@@ -860,8 +863,8 @@ input[type="search"]:hover {
     transform: translateY(-3px) scale(1.05);
 }
 
-/*=============================== MAIN CAPTION ==========================*/
 
+/*=============================== MAIN CAPTION ==========================*/
 #caption2 {
     font-size: 20px;
     margin-bottom: 5px;
@@ -890,8 +893,8 @@ input[type="search"]:hover {
     }
 }
 
-/*=============================== CAROUSEL CAPTION BOX ==================*/
 
+/*=============================== CAROUSEL CAPTION BOX ==================*/
 #carousel-cap2 {
     padding: 14px;
     margin: 0;
@@ -943,8 +946,8 @@ input[type="search"]:hover {
     }
 }
 
-/*=============================== DETAILS TEXT ==========================*/
 
+/*=============================== DETAILS TEXT ==========================*/
 #cap_details_txt2 {
     font-weight: 500;
     font-family: "Roboto Mono", monospace;
@@ -976,8 +979,8 @@ input[type="search"]:hover {
     }
 }
 
-/*=============================== PREMIER LOGO ==========================*/
 
+/*=============================== PREMIER LOGO ==========================*/
 .primierLogo2 {
     width: 78px;
     height: 78px;
@@ -1020,7 +1023,6 @@ input[type="search"]:hover {
 
 
 /*=============================== INDICATOR DOTS ========================*/
-
 #indicator-dot,
 #right-icon,
 #left-icon {
